@@ -17,5 +17,5 @@ export function urlFor(source: SanityImageSource) {
 export const CONTENT_QUERY = `*[_type == "siteContent"][0]{
   name, business, role, tagline, phone, email, region,
   bio, values, credentials, experience, services,
-  regionDetails, practiceInfo
+  regionDetails, practiceInfo, photo
 }`
